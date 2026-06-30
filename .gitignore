@@ -1,0 +1,19 @@
+# TouchDesigner backup files
+Backup/
+
+# Rendered outputs
+TDMovieOut*.mov
+Test_Mormyrid.mp4
+
+# Archives / distribution artifacts
+*.zip
+*.rar
+*.7z
+
+# macOS system files
+__MACOSX/
+.DS_Store
+
+# Python cache (common in TouchDesigner when using scripts)
+__pycache__/
+*.pyc
