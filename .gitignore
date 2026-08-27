@@ -3,8 +3,13 @@ Backup/
 
 # Rendered outputs
 TDMovieOut*.mov
+Console*.mov
+TDMovieOut*.mp4
+Console*.mp4
 Test_Mormyrid.mp4
 
+NEAQ.*.toe
+NEAQ_*.toe
 
 # Archives / distribution artifacts
 *.zip
@@ -18,3 +23,4 @@ __MACOSX/
 # Python cache (common in TouchDesigner when using scripts)
 __pycache__/
 *.pyc
+NEAQ.324.toe
