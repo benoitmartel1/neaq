@@ -1,0 +1,8 @@
+build/
+build-cache/
+release/
+*.spec
+*.zip
+*.png
+__pycache__/
+*.pyc

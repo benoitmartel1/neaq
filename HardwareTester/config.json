@@ -1,0 +1,15 @@
+{
+  "serial_number": 781710,
+  "ticks_per_revolution": 2400,
+  "devices": [
+    {"name":"rotation","type":"Encoder","port":1,"channel":0,"hub_device":false,"enabled":true},
+    {"name":"power","type":"DigitalInput","port":2,"channel":0,"hub_device":false,"enabled":true},
+    {"name":"langC1","type":"DigitalInput","port":2,"channel":1,"hub_device":false,"enabled":true},
+    {"name":"langC2","type":"DigitalInput","port":2,"channel":2,"hub_device":false,"enabled":true},
+    {"name":"left","type":"VoltageRatioInput","port":4,"channel":0,"hub_device":true,"enabled":true,"threshold":0.5},
+    {"name":"right","type":"VoltageRatioInput","port":4,"channel":1,"hub_device":true,"enabled":true,"threshold":0.5},
+    {"name":"center","type":"VoltageRatioInput","port":4,"channel":2,"hub_device":true,"enabled":true,"threshold":0.5},
+    {"name":"box","type":"DigitalOutput","port":0,"channel":0,"hub_device":true,"enabled":true,"invert":false},
+    {"name":"vu","type":"DigitalOutput","port":3,"channel":0,"hub_device":true,"enabled":true,"invert":false}
+  ]
+}
