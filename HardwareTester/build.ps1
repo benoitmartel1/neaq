@@ -9,6 +9,7 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Executable build failed.' }
     Copy-Item -LiteralPath HardwareTester/config.json -Destination HardwareTester/release/config.json
     Copy-Item -LiteralPath HardwareTester/README.txt -Destination HardwareTester/release/README.txt
+    Copy-Item -Path HardwareTester/licenses/*-LICENSE.txt -Destination HardwareTester/release
     Compress-Archive -Path HardwareTester/release/* -DestinationPath 'HardwareTester/NEAQ Hardware Tester.zip' -Force
 } finally {
     Pop-Location

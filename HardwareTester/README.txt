@@ -51,3 +51,11 @@ The supplied Windows binary bundles Phidget22 Python bindings. The official
 native driver remains a prerequisite. The bindings' license is included.
 Local service binds only 127.0.0.1 on an automatically chosen port and requires
 a per-launch token for API requests. Nothing is sent to an external service.
+
+WINDOWS INSTALLER
+Run installer/NEAQ-Hardware-Tester-Setup-1.0.0.exe. Installs for the current
+user with Start menu shortcuts and optional desktop shortcut. Remove through
+Windows Installed apps. Existing config.json is preserved on upgrades and
+uninstall. The official Phidget22 x64 Windows driver is installed separately.
+Build with build-installer.ps1; provide -Compiler path to Inno Setup ISCC.exe
+if it is not in build-tools/inno. The installer is unsigned.

@@ -6,3 +6,4 @@ release/
 *.png
 __pycache__/
 *.pyc
+build-tools/
